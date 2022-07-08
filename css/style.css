@@ -1,0 +1,478 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	line-height: 1.6;
+	color: #40424a;
+	margin: 0;
+	font-size: 14px;
+	text-align: center; /* 文字置中 */
+}
+
+ul {
+	list-style: none;	
+}
+
+a {
+	color: #40424a;
+	text-decoration: none;	
+}
+
+img {
+	max-width: 65%;
+}
+
+h1 {
+	font-size: 3em;
+	margin: 20px 0;
+	line-height: 1; /*行距*/
+}
+
+h2 {
+	font-size: 2.3em; 
+	line-height: 1;
+}
+
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+.content {
+	padding-top: 3.5em;
+	padding-bottom: 3em;
+	width: 86%;
+	margin: auto;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+
+/* ---- Navigation ---- */
+
+.welcome {
+	font-size: 1.5em;
+	margin: 0;
+	color: black;
+}
+.main-nav {
+	margin: 0;
+  	padding: 0;
+}
+.welcome a,
+.main-nav a {
+	text-align: center;
+	display: block;
+	padding: 10px 15px;
+}
+.main-nav a {
+	font-size: .95em;
+	text-transform: uppercase;
+}
+.main-nav a:hover {
+	text-decoration: underline;
+  	color: rgba(64, 66, 74, 0.7);
+}
+
+.main-header {	
+    padding-top: .6em;
+    padding-bottom: .5em;
+}
+
+
+/* ---- Layout Containers ---- */
+
+.odd {
+  background-color: rgba(114, 158, 161, 0.1);
+}
+
+.even {
+  background-color: rgba(181, 189, 137, 0.1);
+}
+
+.profile {
+  border: solid 0.3em rgba(64, 66, 74, 0.85);
+  padding: 10px;
+  
+}
+
+.intro,
+.about-content {
+	text-align: left;
+	padding-left: 20px;
+}
+
+.about-content ul,
+.resume-content ul {
+	list-style: disc;
+}
+
+/* Home */
+
+h4 {
+	font-size: 1.1em;
+	margin-bottom: 0;
+}
+
+.firstname {
+	margin-bottom: 0;
+	margin-top: 0.3em;
+}
+
+.surname {
+	margin-top: 0;
+}
+
+.social-links img {
+  height: 2rem;
+  width: 3.4rem;
+  opacity: 0.4; /* 透明度 */
+}
+
+.social-links img:hover {
+  opacity: 0.6;
+}
+
+.social-links {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 4em 5em;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+
+
+
+
+/* About Me */
+.about-content p {
+  margin-left: 25px;
+}
+
+
+
+/* Resume */
+.resume-title {
+  text-align: left;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  font-size: 1.4em;
+}
+
+/* the underline of resume title */
+.resume-title:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: #777777;
+  display: inline-block;
+}
+
+.resume-content {
+  margin: auto;
+}
+
+.first-resume-content {
+  margin-bottom: 80px;
+}
+
+ul.resume-detail li {
+  position: relative;
+  margin: auto;
+  margin-bottom: 50px;
+  background-color: #fbfbfb;
+  padding: 20px;
+  list-style: none;
+  text-align: left;
+  width: 85%;
+}
+
+ul.resume-detail li > span {
+  width: 2px;
+  height: 100%;
+  background: #777777;
+  left: -1.25em;
+  top: 0;
+  position: absolute;
+}
+
+ul.resume-detail li > span:before,
+ul.resume-detail li > span:after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  border: 2px solid #777777;
+  position: absolute;
+  left: -5px;
+  top: -10px;
+}
+
+ul.resume-detail li span:after {
+  top: 100%;
+}
+
+span.number span {
+  position: absolute;
+  left: -4em;
+  font-weight: 600;
+  color: #777777;
+  font-size: 0.8rem;
+}
+
+span.number span:first-child {
+  top: -1em;
+}
+
+span.number span:last-child {
+  top: 96%;
+}
+
+.lead {
+  line-height: 1.625em;
+  margin: 0;
+  font-weight: 600;
+}
+
+.type {
+  font-weight: 600;
+  font-size: 0.75em;
+  font-style: italic;
+}
+
+.info {
+  color: #777;
+  font-size: 0.75em;
+  line-height: 1.4;
+  margin-top: 0.5em;
+}
+
+.info p {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.skills span {
+  font-weight: 600; 
+}
+
+.skills {
+  text-align: left;
+  font-size: 1em;
+}
+
+ul.skills {
+  position: relative;
+  margin: auto;
+  margin-bottom: 50px;
+  background-color: #fbfbfb;
+  padding: 20px 20px 20px 50px;
+  width: 80%;
+}
+
+
+
+/* Contact */
+
+.contact a {
+  text-decoration: none;
+  color: #777777;
+}
+
+.contact-form {
+	margin-top: 15px;
+}
+
+.contact-form input {
+  background-color: transparent;
+  padding-left: 25px;
+  height: 50px;
+  width: 70%;
+  border: none;
+  border-bottom: 2px solid #cacaca;
+  margin-bottom: 30px;
+  font-size: 13px;
+  font-family: inherit;
+}
+
+.contact-form textarea {
+  padding-left: 25px;
+  height: 130px;
+  width: 70%;
+  border: none;
+  border-bottom: 2px solid #cacaca;
+  margin-bottom: 30px;
+  font-size: 13px;
+  background-color: transparent;
+  font-family: inherit;
+  resize: none;
+}
+
+.site-btn {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 12px;
+  min-width: 213px;
+  min-height: 20px;
+  text-align: center;
+  padding: 20px 10px 15px;
+  position: relative;
+  background-color: #fff;
+  margin-right: 10px;
+  border: 2px solid #40424a;
+  color: #40424a;
+  font-weight: 700;
+  font-family: inherit;
+}
+
+.far {
+  color: #40424a;
+}
+
+/* ---- Footer ---- */
+
+.footer {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+
+	body {
+		font-size: 16px;
+	}
+	
+	.main-header,
+	.main-nav,
+	.group {
+		display: flex;
+	}
+
+
+	.main-header {
+		width: 100%;
+		background-color: white;
+		position: fixed;
+		flex-direction: column;
+		align-items: center;
+		box-shadow: -21.213px 21.213px 30px 0 rgba(158, 158, 158, .3);
+		z-index: 999;
+	}
+
+	main {
+		padding-top: 105.59px;
+	}
+
+
+	.col {
+		flex: 1;
+	}
+
+	.profile {
+		max-width: 40%;	
+		
+	}
+
+	.profile-box {
+		padding-top: 35px;	
+		max-width: 30%;	
+		
+	}
+
+.profile_img{
+	border-radius: 50%;
+	max-width: 60%;
+
+}
+
+	
+	.social-links {
+		margin-top: 110px;
+		margin-left: 30px;
+	}
+
+	.about-content {
+		padding-top: 50px;
+		order: -1;
+	}
+
+	.info, 
+	.type {
+		font-size: 0.875em;
+	}
+}
+
+@media (min-width: 1025px) {
+	.main-header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.welcome {
+		margin-left: 70px;
+	}
+
+	.main-nav {
+		margin-right: 70px;
+	}
+
+	.profile {
+		max-width: 70%;
+	}
+
+	.content {
+		width: 80%;
+	}
+
+	.social-links {
+		margin-right: 120px;
+	}
+
+	.about-content {
+		padding-left: 70px;
+    font-size: 1.1em;
+	}
+
+  .lead {
+    font-size: 1.1em;
+  }
+
+  .type,
+  .info {
+    font-size: 1em;
+  }
+
+  span.number span {
+    font-size: 0.9rem;
+  }
+
+	main {
+		padding-top: 61.59px;
+	}
+}
+
+
+
+
+
+

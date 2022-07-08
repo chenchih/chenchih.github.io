@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>ChenChih GIT WEBPAGE</title>
+<h1>Helllo Welcome to My Page<h1>
+<p> page is developing </p> 
+<div>  
+<li>My test Blog use HEXO <a href=https://chenchih.github.io/hexo-demo2022> HEXO TEST MYPAGE  </a></li> 
+<li> please go to my other page <a href= https://about.me/chenchih> MYPAGE </a> </li> 
+<li>MY Medium technology blog <a href=https://medium.com/jacklee26 > MEDIUM</a></li>
+</div>
+
+</head>
+
+
+
+
+</body>
+</html>
