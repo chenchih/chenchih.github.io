@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-<meta name="description" content="The official personal website for Chen-Chih Lee, a Software QA Engineer with skills in Python, Linux, and network telecommunication. View my portfolio, resume, and blog posts.">
-      <meta name="google-site-verification" content="" />   
+<meta name="google-site-verification" content="1Kmd0kJkfx2SMwse25SfAuPWMzlLrLMLytHKkMAa08E" />
+      <meta name="google-site-verification" content="CdT1XTJzdmV_0gI8C61cK0DWFIBfd9ZVgi87qybPcjE" />   
       <meta name="viewport" content="width=device-width">
       <meta charset="utf-8">
       <title>Chen-Chih Lee</title>
@@ -20,7 +20,7 @@
         <!-- <li><a href="#home">Home</a></li> -->
         <li><a href="#about">About</a></li>
         <li><a href="#resume">Resume</a></li>
-        <li><a href="https://chenchih.github.io/hexo-demo2022/" class="blog" target="_blank">Chenchih's Technical Blog</a></li>
+        <li><a href="https://chenchih.github.io/hexo-demo2022/" class="blog" target="_blank">Blog</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </header>
@@ -35,14 +35,15 @@
 <!--/.intro-box-->  
             <div class="intro">
               <h4 class="text-uppercase">Hi!!! Welcome to my page</h4>
-			  <h1>Chen-Chih Lee | Software QA Engineer</h1>
-			  <h3 class="text-uppercase">Hi!!! Welcome to my personal page</h3>
+              <h1 class="text-uppercase firstname name">Chen-Chih</h1>
+              <h1 class="text-uppercase surname name">Lee</h1>
+              <h2>Software QA Engineer</h2>
 			  <!-- <h2>AE Engineer</h2> -->
 			  <h3> Industry: Network Telecommunication<h3>
             </div> <!--/.intro-->   
 
             <ul class="social-links">
-			  <li><a href="https://github.com/chenchih" target="_blank"><img src="img/github.png" alt="Chenchih's GitHub profile"></a></li>
+              <li><a href="https://github.com/chenchih" target="_blank"><img src="img/github.png"></a></li>
               <li><a href="https://www.linkedin.com/in/chenchih/" target="_blank"><img src="img/linkedin.png"></a></li>
 			 <li> <a href="https://chenchih-tutorial.blogspot.com/" target="blank"><img align="center" src="img/blog.png" alt="blogger" height="30" width="40" /></a></li>
 			 <li> <a href="https://medium.com/jacklee26/" target="blank"><img align="center" src="img/medium.png" alt="MEDIUM"  /></a></li>
